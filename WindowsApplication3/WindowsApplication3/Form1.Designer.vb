@@ -39,6 +39,7 @@ Partial Class frmMain
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
+        Me.Button5 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'lblTitle
@@ -123,7 +124,7 @@ Partial Class frmMain
         '
         'btnExpressions
         '
-        Me.btnExpressions.Location = New System.Drawing.Point(206, 164)
+        Me.btnExpressions.Location = New System.Drawing.Point(206, 236)
         Me.btnExpressions.Name = "btnExpressions"
         Me.btnExpressions.Size = New System.Drawing.Size(90, 30)
         Me.btnExpressions.TabIndex = 8
@@ -132,7 +133,7 @@ Partial Class frmMain
         '
         'btnEquations
         '
-        Me.btnEquations.Location = New System.Drawing.Point(206, 200)
+        Me.btnEquations.Location = New System.Drawing.Point(206, 272)
         Me.btnEquations.Name = "btnEquations"
         Me.btnEquations.Size = New System.Drawing.Size(90, 30)
         Me.btnEquations.TabIndex = 9
@@ -141,7 +142,7 @@ Partial Class frmMain
         '
         'btnExponents
         '
-        Me.btnExponents.Location = New System.Drawing.Point(206, 236)
+        Me.btnExponents.Location = New System.Drawing.Point(206, 164)
         Me.btnExponents.Name = "btnExponents"
         Me.btnExponents.Size = New System.Drawing.Size(90, 30)
         Me.btnExponents.TabIndex = 10
@@ -150,7 +151,7 @@ Partial Class frmMain
         '
         'btnFunctions
         '
-        Me.btnFunctions.Location = New System.Drawing.Point(206, 272)
+        Me.btnFunctions.Location = New System.Drawing.Point(206, 200)
         Me.btnFunctions.Name = "btnFunctions"
         Me.btnFunctions.Size = New System.Drawing.Size(90, 30)
         Me.btnFunctions.TabIndex = 11
@@ -169,7 +170,7 @@ Partial Class frmMain
         'Button1
         '
         Me.Button1.Enabled = False
-        Me.Button1.Location = New System.Drawing.Point(416, 164)
+        Me.Button1.Location = New System.Drawing.Point(418, 236)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(90, 30)
         Me.Button1.TabIndex = 13
@@ -179,7 +180,7 @@ Partial Class frmMain
         'Button2
         '
         Me.Button2.Enabled = False
-        Me.Button2.Location = New System.Drawing.Point(416, 200)
+        Me.Button2.Location = New System.Drawing.Point(418, 272)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(90, 30)
         Me.Button2.TabIndex = 14
@@ -190,7 +191,7 @@ Partial Class frmMain
         '
         Me.Button3.BackColor = System.Drawing.SystemColors.Control
         Me.Button3.Enabled = False
-        Me.Button3.Location = New System.Drawing.Point(416, 236)
+        Me.Button3.Location = New System.Drawing.Point(418, 165)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(90, 30)
         Me.Button3.TabIndex = 15
@@ -200,18 +201,28 @@ Partial Class frmMain
         'Button4
         '
         Me.Button4.Enabled = False
-        Me.Button4.Location = New System.Drawing.Point(416, 272)
+        Me.Button4.Location = New System.Drawing.Point(418, 201)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(90, 30)
         Me.Button4.TabIndex = 16
         Me.Button4.Text = "Functions"
         Me.Button4.UseVisualStyleBackColor = True
         '
+        'Button5
+        '
+        Me.Button5.Location = New System.Drawing.Point(217, 319)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(279, 30)
+        Me.Button5.TabIndex = 17
+        Me.Button5.Text = "All Homework Summary"
+        Me.Button5.UseVisualStyleBackColor = True
+        '
         'frmMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(644, 361)
+        Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
@@ -276,4 +287,5 @@ Partial Class frmMain
         frmFunctions.Show()
         Me.Hide()
     End Sub
+    Friend WithEvents Button5 As System.Windows.Forms.Button
 End Class

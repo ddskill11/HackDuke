@@ -25,25 +25,25 @@ Partial Class frmEquations
         Me.gbQ3 = New System.Windows.Forms.GroupBox()
         Me.GroupBox4 = New System.Windows.Forms.GroupBox()
         Me.lblQ3 = New System.Windows.Forms.Label()
-        Me.pbQ3 = New System.Windows.Forms.PictureBox()
         Me.txtQ3 = New System.Windows.Forms.TextBox()
         Me.gbQ2 = New System.Windows.Forms.GroupBox()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
         Me.lblQ2 = New System.Windows.Forms.Label()
-        Me.pbQ2 = New System.Windows.Forms.PictureBox()
         Me.txtQ2 = New System.Windows.Forms.TextBox()
         Me.gbQ1 = New System.Windows.Forms.GroupBox()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.lblQ1 = New System.Windows.Forms.Label()
-        Me.pbQ1 = New System.Windows.Forms.PictureBox()
         Me.txtQ1 = New System.Windows.Forms.TextBox()
         Me.btnMark = New System.Windows.Forms.Button()
         Me.btnBack = New System.Windows.Forms.Button()
+        Me.pbQ3 = New System.Windows.Forms.PictureBox()
+        Me.pbQ2 = New System.Windows.Forms.PictureBox()
+        Me.pbQ1 = New System.Windows.Forms.PictureBox()
         Me.gbQ3.SuspendLayout()
-        CType(Me.pbQ3, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.gbQ2.SuspendLayout()
-        CType(Me.pbQ2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.gbQ1.SuspendLayout()
+        CType(Me.pbQ3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbQ2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pbQ1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -77,15 +77,6 @@ Partial Class frmEquations
         Me.lblQ3.Size = New System.Drawing.Size(157, 13)
         Me.lblQ3.TabIndex = 19
         Me.lblQ3.Text = "Simplify the following expression"
-        '
-        'pbQ3
-        '
-        Me.pbQ3.Location = New System.Drawing.Point(55, 54)
-        Me.pbQ3.Name = "pbQ3"
-        Me.pbQ3.Size = New System.Drawing.Size(91, 62)
-        Me.pbQ3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.pbQ3.TabIndex = 17
-        Me.pbQ3.TabStop = False
         '
         'txtQ3
         '
@@ -125,15 +116,6 @@ Partial Class frmEquations
         Me.lblQ2.TabIndex = 16
         Me.lblQ2.Text = "Simplify the following expression"
         '
-        'pbQ2
-        '
-        Me.pbQ2.Location = New System.Drawing.Point(58, 54)
-        Me.pbQ2.Name = "pbQ2"
-        Me.pbQ2.Size = New System.Drawing.Size(91, 62)
-        Me.pbQ2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.pbQ2.TabIndex = 14
-        Me.pbQ2.TabStop = False
-        '
         'txtQ2
         '
         Me.txtQ2.Location = New System.Drawing.Point(54, 125)
@@ -172,15 +154,6 @@ Partial Class frmEquations
         Me.lblQ1.TabIndex = 13
         Me.lblQ1.Text = "Simplify the following expression"
         '
-        'pbQ1
-        '
-        Me.pbQ1.Location = New System.Drawing.Point(51, 52)
-        Me.pbQ1.Name = "pbQ1"
-        Me.pbQ1.Size = New System.Drawing.Size(91, 62)
-        Me.pbQ1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.pbQ1.TabIndex = 11
-        Me.pbQ1.TabStop = False
-        '
         'txtQ1
         '
         Me.txtQ1.Location = New System.Drawing.Point(45, 125)
@@ -206,10 +179,41 @@ Partial Class frmEquations
         Me.btnBack.Text = "Back"
         Me.btnBack.UseVisualStyleBackColor = True
         '
+        'pbQ3
+        '
+        Me.pbQ3.Image = Global.WindowsApplication3.My.Resources.Resources._3
+        Me.pbQ3.Location = New System.Drawing.Point(40, 49)
+        Me.pbQ3.Name = "pbQ3"
+        Me.pbQ3.Size = New System.Drawing.Size(123, 58)
+        Me.pbQ3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.pbQ3.TabIndex = 17
+        Me.pbQ3.TabStop = False
+        '
+        'pbQ2
+        '
+        Me.pbQ2.Image = Global.WindowsApplication3.My.Resources.Resources._2
+        Me.pbQ2.Location = New System.Drawing.Point(24, 49)
+        Me.pbQ2.Name = "pbQ2"
+        Me.pbQ2.Size = New System.Drawing.Size(154, 65)
+        Me.pbQ2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.pbQ2.TabIndex = 14
+        Me.pbQ2.TabStop = False
+        '
+        'pbQ1
+        '
+        Me.pbQ1.Image = Global.WindowsApplication3.My.Resources.Resources._0
+        Me.pbQ1.Location = New System.Drawing.Point(51, 52)
+        Me.pbQ1.Name = "pbQ1"
+        Me.pbQ1.Size = New System.Drawing.Size(91, 62)
+        Me.pbQ1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.pbQ1.TabIndex = 11
+        Me.pbQ1.TabStop = False
+        '
         'frmEquations
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.SystemColors.ButtonHighlight
         Me.ClientSize = New System.Drawing.Size(644, 361)
         Me.Controls.Add(Me.gbQ3)
         Me.Controls.Add(Me.gbQ2)
@@ -220,12 +224,12 @@ Partial Class frmEquations
         Me.Text = "Equations"
         Me.gbQ3.ResumeLayout(False)
         Me.gbQ3.PerformLayout()
-        CType(Me.pbQ3, System.ComponentModel.ISupportInitialize).EndInit()
         Me.gbQ2.ResumeLayout(False)
         Me.gbQ2.PerformLayout()
-        CType(Me.pbQ2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.gbQ1.ResumeLayout(False)
         Me.gbQ1.PerformLayout()
+        CType(Me.pbQ3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbQ2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.pbQ1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 

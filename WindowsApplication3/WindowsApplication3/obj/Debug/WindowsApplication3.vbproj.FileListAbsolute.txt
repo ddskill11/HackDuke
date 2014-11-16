@@ -28,3 +28,4 @@ C:\Users\David\Documents\GitHub\HackDuke\WindowsApplication3\WindowsApplication3
 C:\Users\David\Documents\GitHub\HackDuke\WindowsApplication3\WindowsApplication3\obj\Debug\WindowsApplication3.pdb
 C:\Users\David\Documents\GitHub\HackDuke\WindowsApplication3\WindowsApplication3\obj\Debug\WindowsApplication3.frmMain.resources
 C:\Users\David\Documents\GitHub\HackDuke\WindowsApplication3\WindowsApplication3\obj\Debug\WindowsApplication3.frmHomeworkFunctions.resources
+C:\Users\David\Documents\GitHub\HackDuke\WindowsApplication3\WindowsApplication3\obj\Debug\WindowsApplication3.Allhwk.resources

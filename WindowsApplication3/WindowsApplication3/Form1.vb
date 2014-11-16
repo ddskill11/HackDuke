@@ -9,4 +9,9 @@
         Me.Hide()
         frmHomeworkFunctions.Show()
     End Sub
+
+    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
+        Me.Hide()
+        Allhwk.Show()
+    End Sub
 End Class

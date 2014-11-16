@@ -25,29 +25,29 @@ Partial Class frmFunctions
         Me.btnBack = New System.Windows.Forms.Button()
         Me.btnMark = New System.Windows.Forms.Button()
         Me.gbQ3 = New System.Windows.Forms.GroupBox()
+        Me.pbQ3 = New System.Windows.Forms.PictureBox()
         Me.GroupBox4 = New System.Windows.Forms.GroupBox()
         Me.lblQ3 = New System.Windows.Forms.Label()
-        Me.pbQ3 = New System.Windows.Forms.PictureBox()
         Me.txtQ3 = New System.Windows.Forms.TextBox()
         Me.gbQ2 = New System.Windows.Forms.GroupBox()
+        Me.pbQ2 = New System.Windows.Forms.PictureBox()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
         Me.lblQ2 = New System.Windows.Forms.Label()
-        Me.pbQ2 = New System.Windows.Forms.PictureBox()
         Me.txtQ2 = New System.Windows.Forms.TextBox()
         Me.gbQ1 = New System.Windows.Forms.GroupBox()
+        Me.pbQ1 = New System.Windows.Forms.PictureBox()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.lblQ1 = New System.Windows.Forms.Label()
-        Me.pbQ1 = New System.Windows.Forms.PictureBox()
         Me.txtQ1 = New System.Windows.Forms.TextBox()
         Me.gbQ4 = New System.Windows.Forms.GroupBox()
+        Me.pbQ4 = New System.Windows.Forms.PictureBox()
         Me.GroupBox5 = New System.Windows.Forms.GroupBox()
         Me.lblQ4 = New System.Windows.Forms.Label()
-        Me.pbQ4 = New System.Windows.Forms.PictureBox()
         Me.txtQ4 = New System.Windows.Forms.TextBox()
         Me.gbQ5 = New System.Windows.Forms.GroupBox()
+        Me.pbQ5 = New System.Windows.Forms.PictureBox()
         Me.GroupBox6 = New System.Windows.Forms.GroupBox()
         Me.lblQ5 = New System.Windows.Forms.Label()
-        Me.pbQ5 = New System.Windows.Forms.PictureBox()
         Me.txtQ5 = New System.Windows.Forms.TextBox()
         Me.gbQ3.SuspendLayout()
         CType(Me.pbQ3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -82,15 +82,24 @@ Partial Class frmFunctions
         'gbQ3
         '
         Me.gbQ3.BackColor = System.Drawing.Color.White
+        Me.gbQ3.Controls.Add(Me.pbQ3)
         Me.gbQ3.Controls.Add(Me.GroupBox4)
         Me.gbQ3.Controls.Add(Me.lblQ3)
-        Me.gbQ3.Controls.Add(Me.pbQ3)
         Me.gbQ3.Controls.Add(Me.txtQ3)
         Me.gbQ3.Location = New System.Drawing.Point(424, 12)
         Me.gbQ3.Name = "gbQ3"
         Me.gbQ3.Size = New System.Drawing.Size(200, 151)
         Me.gbQ3.TabIndex = 26
         Me.gbQ3.TabStop = False
+        '
+        'pbQ3
+        '
+        Me.pbQ3.Location = New System.Drawing.Point(63, 50)
+        Me.pbQ3.Name = "pbQ3"
+        Me.pbQ3.Size = New System.Drawing.Size(91, 62)
+        Me.pbQ3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.pbQ3.TabIndex = 17
+        Me.pbQ3.TabStop = False
         '
         'GroupBox4
         '
@@ -109,15 +118,6 @@ Partial Class frmFunctions
         Me.lblQ3.TabIndex = 19
         Me.lblQ3.Text = "Simplify the following expression"
         '
-        'pbQ3
-        '
-        Me.pbQ3.Location = New System.Drawing.Point(63, 50)
-        Me.pbQ3.Name = "pbQ3"
-        Me.pbQ3.Size = New System.Drawing.Size(91, 62)
-        Me.pbQ3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.pbQ3.TabIndex = 17
-        Me.pbQ3.TabStop = False
-        '
         'txtQ3
         '
         Me.txtQ3.Location = New System.Drawing.Point(60, 125)
@@ -128,15 +128,24 @@ Partial Class frmFunctions
         'gbQ2
         '
         Me.gbQ2.BackColor = System.Drawing.Color.White
+        Me.gbQ2.Controls.Add(Me.pbQ2)
         Me.gbQ2.Controls.Add(Me.GroupBox3)
         Me.gbQ2.Controls.Add(Me.lblQ2)
-        Me.gbQ2.Controls.Add(Me.pbQ2)
         Me.gbQ2.Controls.Add(Me.txtQ2)
         Me.gbQ2.Location = New System.Drawing.Point(218, 12)
         Me.gbQ2.Name = "gbQ2"
         Me.gbQ2.Size = New System.Drawing.Size(200, 151)
         Me.gbQ2.TabIndex = 25
         Me.gbQ2.TabStop = False
+        '
+        'pbQ2
+        '
+        Me.pbQ2.Location = New System.Drawing.Point(58, 48)
+        Me.pbQ2.Name = "pbQ2"
+        Me.pbQ2.Size = New System.Drawing.Size(91, 62)
+        Me.pbQ2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.pbQ2.TabIndex = 14
+        Me.pbQ2.TabStop = False
         '
         'GroupBox3
         '
@@ -155,15 +164,6 @@ Partial Class frmFunctions
         Me.lblQ2.TabIndex = 16
         Me.lblQ2.Text = "Simplify the following expression"
         '
-        'pbQ2
-        '
-        Me.pbQ2.Location = New System.Drawing.Point(58, 48)
-        Me.pbQ2.Name = "pbQ2"
-        Me.pbQ2.Size = New System.Drawing.Size(91, 62)
-        Me.pbQ2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.pbQ2.TabIndex = 14
-        Me.pbQ2.TabStop = False
-        '
         'txtQ2
         '
         Me.txtQ2.Location = New System.Drawing.Point(54, 125)
@@ -174,15 +174,24 @@ Partial Class frmFunctions
         'gbQ1
         '
         Me.gbQ1.BackColor = System.Drawing.Color.White
+        Me.gbQ1.Controls.Add(Me.pbQ1)
         Me.gbQ1.Controls.Add(Me.GroupBox1)
         Me.gbQ1.Controls.Add(Me.lblQ1)
-        Me.gbQ1.Controls.Add(Me.pbQ1)
         Me.gbQ1.Controls.Add(Me.txtQ1)
         Me.gbQ1.Location = New System.Drawing.Point(12, 12)
         Me.gbQ1.Name = "gbQ1"
         Me.gbQ1.Size = New System.Drawing.Size(200, 151)
         Me.gbQ1.TabIndex = 24
         Me.gbQ1.TabStop = False
+        '
+        'pbQ1
+        '
+        Me.pbQ1.Location = New System.Drawing.Point(59, 48)
+        Me.pbQ1.Name = "pbQ1"
+        Me.pbQ1.Size = New System.Drawing.Size(91, 62)
+        Me.pbQ1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.pbQ1.TabIndex = 11
+        Me.pbQ1.TabStop = False
         '
         'GroupBox1
         '
@@ -201,15 +210,6 @@ Partial Class frmFunctions
         Me.lblQ1.TabIndex = 13
         Me.lblQ1.Text = "Simplify the following expression"
         '
-        'pbQ1
-        '
-        Me.pbQ1.Location = New System.Drawing.Point(59, 48)
-        Me.pbQ1.Name = "pbQ1"
-        Me.pbQ1.Size = New System.Drawing.Size(91, 62)
-        Me.pbQ1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.pbQ1.TabIndex = 11
-        Me.pbQ1.TabStop = False
-        '
         'txtQ1
         '
         Me.txtQ1.Location = New System.Drawing.Point(51, 125)
@@ -220,15 +220,24 @@ Partial Class frmFunctions
         'gbQ4
         '
         Me.gbQ4.BackColor = System.Drawing.Color.White
+        Me.gbQ4.Controls.Add(Me.pbQ4)
         Me.gbQ4.Controls.Add(Me.GroupBox5)
         Me.gbQ4.Controls.Add(Me.lblQ4)
-        Me.gbQ4.Controls.Add(Me.pbQ4)
         Me.gbQ4.Controls.Add(Me.txtQ4)
         Me.gbQ4.Location = New System.Drawing.Point(45, 194)
         Me.gbQ4.Name = "gbQ4"
         Me.gbQ4.Size = New System.Drawing.Size(200, 151)
         Me.gbQ4.TabIndex = 27
         Me.gbQ4.TabStop = False
+        '
+        'pbQ4
+        '
+        Me.pbQ4.Location = New System.Drawing.Point(51, 54)
+        Me.pbQ4.Name = "pbQ4"
+        Me.pbQ4.Size = New System.Drawing.Size(91, 62)
+        Me.pbQ4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.pbQ4.TabIndex = 17
+        Me.pbQ4.TabStop = False
         '
         'GroupBox5
         '
@@ -247,15 +256,6 @@ Partial Class frmFunctions
         Me.lblQ4.TabIndex = 19
         Me.lblQ4.Text = "Simplify the following expression"
         '
-        'pbQ4
-        '
-        Me.pbQ4.Location = New System.Drawing.Point(51, 54)
-        Me.pbQ4.Name = "pbQ4"
-        Me.pbQ4.Size = New System.Drawing.Size(91, 62)
-        Me.pbQ4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.pbQ4.TabIndex = 17
-        Me.pbQ4.TabStop = False
-        '
         'txtQ4
         '
         Me.txtQ4.Location = New System.Drawing.Point(47, 125)
@@ -266,15 +266,24 @@ Partial Class frmFunctions
         'gbQ5
         '
         Me.gbQ5.BackColor = System.Drawing.Color.White
+        Me.gbQ5.Controls.Add(Me.pbQ5)
         Me.gbQ5.Controls.Add(Me.GroupBox6)
         Me.gbQ5.Controls.Add(Me.lblQ5)
-        Me.gbQ5.Controls.Add(Me.pbQ5)
         Me.gbQ5.Controls.Add(Me.txtQ5)
         Me.gbQ5.Location = New System.Drawing.Point(298, 198)
         Me.gbQ5.Name = "gbQ5"
         Me.gbQ5.Size = New System.Drawing.Size(200, 151)
         Me.gbQ5.TabIndex = 28
         Me.gbQ5.TabStop = False
+        '
+        'pbQ5
+        '
+        Me.pbQ5.Location = New System.Drawing.Point(55, 50)
+        Me.pbQ5.Name = "pbQ5"
+        Me.pbQ5.Size = New System.Drawing.Size(91, 62)
+        Me.pbQ5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.pbQ5.TabIndex = 17
+        Me.pbQ5.TabStop = False
         '
         'GroupBox6
         '
@@ -292,15 +301,6 @@ Partial Class frmFunctions
         Me.lblQ5.Size = New System.Drawing.Size(187, 31)
         Me.lblQ5.TabIndex = 19
         Me.lblQ5.Text = "Simplify the following expression"
-        '
-        'pbQ5
-        '
-        Me.pbQ5.Location = New System.Drawing.Point(55, 50)
-        Me.pbQ5.Name = "pbQ5"
-        Me.pbQ5.Size = New System.Drawing.Size(91, 62)
-        Me.pbQ5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.pbQ5.TabIndex = 17
-        Me.pbQ5.TabStop = False
         '
         'txtQ5
         '

@@ -13,17 +13,18 @@ C:\Users\David\SkyDrive\Project stuff\School\College\2nd Year\Term 1\VB Programm
 C:\Users\David\SkyDrive\Project stuff\School\College\2nd Year\Term 1\VB Programming\Lab 8\WindowsApplication3\WindowsApplication3\obj\Debug\WindowsApplication3.frmExponents.resources
 C:\Users\David\SkyDrive\Project stuff\School\College\2nd Year\Term 1\VB Programming\Lab 8\WindowsApplication3\WindowsApplication3\obj\Debug\WindowsApplication3.frmFunctions.resources
 C:\Users\David\Documents\GitHub\HackDuke\WindowsApplication3\WindowsApplication3\bin\Debug\WindowsApplication3.exe.config
-C:\Users\David\Documents\GitHub\HackDuke\WindowsApplication3\WindowsApplication3\obj\Debug\WindowsApplication3.exe
-C:\Users\David\Documents\GitHub\HackDuke\WindowsApplication3\WindowsApplication3\obj\Debug\WindowsApplication3.xml
-C:\Users\David\Documents\GitHub\HackDuke\WindowsApplication3\WindowsApplication3\obj\Debug\WindowsApplication3.pdb
 C:\Users\David\Documents\GitHub\HackDuke\WindowsApplication3\WindowsApplication3\bin\Debug\WindowsApplication3.exe
 C:\Users\David\Documents\GitHub\HackDuke\WindowsApplication3\WindowsApplication3\bin\Debug\WindowsApplication3.pdb
 C:\Users\David\Documents\GitHub\HackDuke\WindowsApplication3\WindowsApplication3\bin\Debug\WindowsApplication3.xml
-C:\Users\David\Documents\GitHub\HackDuke\WindowsApplication3\WindowsApplication3\obj\Debug\WindowsApplication3.vbprojResolveAssemblyReference.cache
 C:\Users\David\Documents\GitHub\HackDuke\WindowsApplication3\WindowsApplication3\obj\Debug\WindowsApplication3.frmEquations.resources
-C:\Users\David\Documents\GitHub\HackDuke\WindowsApplication3\WindowsApplication3\obj\Debug\WindowsApplication3.Form1.resources
 C:\Users\David\Documents\GitHub\HackDuke\WindowsApplication3\WindowsApplication3\obj\Debug\WindowsApplication3.frmExpressions.resources
 C:\Users\David\Documents\GitHub\HackDuke\WindowsApplication3\WindowsApplication3\obj\Debug\WindowsApplication3.frmExponents.resources
 C:\Users\David\Documents\GitHub\HackDuke\WindowsApplication3\WindowsApplication3\obj\Debug\WindowsApplication3.frmFunctions.resources
+C:\Users\David\Documents\GitHub\HackDuke\WindowsApplication3\WindowsApplication3\obj\Debug\WindowsApplication3.frmHomeworkExponents.resources
 C:\Users\David\Documents\GitHub\HackDuke\WindowsApplication3\WindowsApplication3\obj\Debug\WindowsApplication3.Resources.resources
 C:\Users\David\Documents\GitHub\HackDuke\WindowsApplication3\WindowsApplication3\obj\Debug\WindowsApplication3.vbproj.GenerateResource.Cache
+C:\Users\David\Documents\GitHub\HackDuke\WindowsApplication3\WindowsApplication3\obj\Debug\WindowsApplication3.exe
+C:\Users\David\Documents\GitHub\HackDuke\WindowsApplication3\WindowsApplication3\obj\Debug\WindowsApplication3.xml
+C:\Users\David\Documents\GitHub\HackDuke\WindowsApplication3\WindowsApplication3\obj\Debug\WindowsApplication3.pdb
+C:\Users\David\Documents\GitHub\HackDuke\WindowsApplication3\WindowsApplication3\obj\Debug\WindowsApplication3.frmMain.resources
+C:\Users\David\Documents\GitHub\HackDuke\WindowsApplication3\WindowsApplication3\obj\Debug\WindowsApplication3.frmHomeworkFunctions.resources

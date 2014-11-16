@@ -173,7 +173,7 @@ Partial Class frmMain
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(90, 30)
         Me.Button1.TabIndex = 13
-        Me.Button1.Text = "Expressions -"
+        Me.Button1.Text = "Expressions"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Button2
@@ -183,18 +183,19 @@ Partial Class frmMain
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(90, 30)
         Me.Button2.TabIndex = 14
-        Me.Button2.Text = "Equations - "
+        Me.Button2.Text = "Equations"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'Button3
         '
+        Me.Button3.BackColor = System.Drawing.SystemColors.Control
         Me.Button3.Enabled = False
         Me.Button3.Location = New System.Drawing.Point(416, 236)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(90, 30)
         Me.Button3.TabIndex = 15
-        Me.Button3.Text = "Exponents - "
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.Button3.Text = "Exponents "
+        Me.Button3.UseVisualStyleBackColor = False
         '
         'Button4
         '
@@ -203,7 +204,7 @@ Partial Class frmMain
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(90, 30)
         Me.Button4.TabIndex = 16
-        Me.Button4.Text = "Functions - "
+        Me.Button4.Text = "Functions"
         Me.Button4.UseVisualStyleBackColor = True
         '
         'frmMain
